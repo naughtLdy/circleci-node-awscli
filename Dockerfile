@@ -1,4 +1,4 @@
-FROM circleci/node
+FROM circleci/node:4
 
 RUN sudo apt-get update && \
   sudo apt-get install -y python python-pip python-dev && \
